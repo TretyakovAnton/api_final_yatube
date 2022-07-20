@@ -1,4 +1,17 @@
 <h1> API для проекта YaTube</h1>
+##Описание проекта API Yatube:
+API, позволяющее аутентифицированным пользователям создавать, 
+редактировать и удалять записи в социальной сети Yatube, а также просматривать 
+и комментировать записи других пользователей и подписываться на других авторов. 
+
+<h1>Стек:</h1>
+
+    Django 2.2.16
+    Python 3.7
+    djoser 2.1
+    django rest framework
+    Django ORM
+    Simple JWT
 
 <h2>Мануал по устновке проекта</h2>
 
@@ -29,17 +42,7 @@
 <h4><i>6.Запустить проект:</i></h4>
 
     python manage.py runserver
-    
-
-<h1>Инструментарий:</h1>
-
-    Django 2.2.16
-    Python 3.7
-    djoser 2.1
-    django rest framework
-    Django ORM
-    Simple JWT
-    
+      
 <h1>Примеры запросов</h1>
 
 - GET-Response: http://127.0.0.1:8000/api/v1/posts/ 
